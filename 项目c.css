@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #11120d;
+	text-decoration: none;
+}
+span {
+	font-size: 0.12rem;
+}
+html {
+	font-size: 100px;
+}
+body {
+	background-color: #f6f6f6;
+}
+header {
+	height: 0.8rem;
+}
+header nav {
+	height: 0.8rem;
+	width: 100%;
+	position: absolute;
+}
+.logo {
+	position: absolute;
+}
+nav img {
+	float: left;
+	margin: 0.2rem 0 0 0.3rem;
+	width: 1.6rem;
+}
+.login {
+	height: 0.8rem;
+	line-height: 0.8rem;
+	float: right;
+	font-size: 0.12rem;
+	position: absolute;
+	right: 0.30rem;
+}
+.space {
+	display: inline-block;
+	width: 0.02rem;
+	height: 0.12rem;
+	background-color: #8b8c8b;
+	position: relative;
+	top: 0.01rem;
+	right: 0;
+	margin: 0 0.12rem;
+}
+#adshow {
+	width: 6.90rem;
+	height: 4.00rem;
+	margin: 0 auto;
+}
+#photos{
+	width: 6.90rem;
+	height: 4.00rem;
+}
+.pictures{
+    position: absolute;
+    width:6.9rem;
+	height:4rem;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.pictures img {
+	width: 9rem;
+}
+#buttons{
+    position: absolute;
+    margin-top: -0.25rem;
+    margin-left:3.00rem;
+    z-index: 4;
+    text-align: center;
+}
+.button{
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color:white;
+    border-radius: 50%;
+    float:left;
+    margin-right: 0.30rem;
+    cursor: pointer;
+}
+.app,.applist {
+	height: 1.6rem;
+}
+.app {
+	margin: 0.6rem 0 0.5rem;
+	padding: 0 0.3rem;
+}
+.applist li {
+	display: inline-block;
+	float: left;
+	margin: 0 0.28rem;
+}
+.applist p {
+	font-size: 0.16rem;
+	font-family: "方正黑体简体";
+	text-align: center;
+	position: relative;
+	bottom: 0.18rem;
+}
+.applist img {
+	width: 1.15rem;
+}
