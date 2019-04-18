@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-style: normal;
+}
+html {
+	font-size: 100px;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #eaeaea url(img/mbac.jpg) no-repeat left bottom;
+	background-size: 100%;
+}
+.title {
+	text-align: center;
+	font-size: 0.15rem;
+	margin-top: 0.46rem;
+}
+.tit {
+	font-size:0.35rem;
+	letter-spacing: 0.05rem;
+	margin-bottom: 0.2rem;
+}
+.chart {
+	width: 5.84rem;
+	margin: 0.36rem auto;
+	background-color: rgba(250,246,243,0.9);
+	clear:both;
+	overflow: hidden;
+}
+.chart form {
+	margin: 0 auto;
+}
+.school,.major,.name,.tel {
+	overflow: hidden;
+	width: 5.22rem;
+	height: 0.62rem;
+	border: 0.01rem solid #494949;
+}
+.school {
+	margin: 0.18rem auto 0;
+}
+.major,.name,.tel {
+	margin: 0.4rem auto;
+}
+.school div{
+	float: left;
+}
+.major div{
+	float: left;
+}
+.titname {
+	display: inline-block;
+	width: 1.46rem;
+	padding-left: 0.22rem;
+	font: 300 0.3rem '微软雅黑';
+	line-height: 0.62rem;
+}
+.sele {
+	line-height: 0.62rem;
+	cursor: pointer;
+}
+.opt {
+	vertical-align: top;
+	height: 0.62rem;
+	width: 3.54rem;
+	overflow: hidden;
+	padding-left: 0.22rem;
+	font-size: 0.22rem;
+	border: none;
+	outline: none;
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance: none;   /*将input输入框的默认样式去掉*/
+	background: url(img/sele1.png) no-repeat right center transparent ;	
+	background-size: 0.84rem;
+} 
+.opt:focus{
+  	border:0.02rem solid #ffb324;
+}
+.choice {
+	width: 5.3rem;
+	height: 1.35rem;
+	margin: 0 auto;
+	font: normal 0.2rem '微软雅黑';
+	line-height: 0.2rem;
+}
+.college,.edu {
+	line-height: 0.4rem;
+}
+.college div {
+	display:inline-block;
+}
+.edu div {
+	display:inline-block;
+}
+.line1,.line3 {
+	position: absolute;
+	left: 30%;
+}
+.line2 {
+	position: absolute;
+	left: 60%;
+}
+.line3 {
+	margin-top: 0.05rem;
+}
+#col,#edu {
+	display: inline-block;
+	width: 0.22rem;
+	height: 0.22rem;
+	opacity: 0;
+	position: relative;
+	left: 0.2rem;
+	top: 0.03rem;
+	cursor: pointer;
+	z-index: 2;
+}
+.line1 label,.line2 label,.line3 label {
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	position: relative;
+	top: 0.04rem;
+	right: 0.02rem;
+	border-radius: 50%;
+	border: 0.02rem solid #999;
+	background-color: white;
+}
+#col:checked + label,#edu:checked + label {
+	background: white url(img/radio.png) no-repeat center;
+	background-size: 0.18rem;
+}
+
+.name,.tel {
+	font: 300 0.3rem '微软雅黑';
+	line-height: 0.62rem;
+}
+.na,.te {
+	padding-left: 0.2rem;
+}
+input[type="text"],input[type="tel"] {
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+	font-size: 0.22rem;
+	height: 0.62rem;
+	width: 3.54rem;
+	-webkit-appearance:none;
+	-moz-appearance: none;   /*将input输入框的默认样式去掉*/
+	border: 0;
+	outline: 0;
+	padding-left: 0.22rem;
+	background-color: transparent;
+	cursor: pointer;
+}
+input[type="text"]:focus,input[type="tel"]:focus {
+  border:0.02rem solid #ffb324;
+}
+.butt {
+	height: 0.45rem;
+	width: 4.8rem;
+	margin:0 auto;
+}
+.next,.rewrite {
+	height: 0.45rem;
+	width: 2.24rem;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0.3rem;
+}
+.next {
+	float: left;
+}
+.rewrite {
+	float: right;
+}
+.next input,.rewrite input {
+	vertical-align: top;
+}
+input[type="submit"],input[type="reset"] {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 0.45rem;
+	width: 2.24rem;
+	-webkit-appearance:none;
+	-moz-appearance: none;   /*将input输入框的默认样式去掉*/
+	border: 0;
+	outline: 0;
+	background-color: #5fbe60;
+	border-radius: 0.05rem;
+	color: white;
+	font-size: 0.2rem;
+	letter-spacing: 0.05rem;
+	line-height: 0.45rem;
+	cursor: pointer;
+}
+.tips {
+	width: 2.75rem;
+	height: 0.5rem;
+	border: 0.03rem solid #474747;
+	font-size: 0.25rem;
+	text-align: center;
+	margin: 0.35rem auto 2rem;
+	letter-spacing: 0.05rem;
+	line-height: 0.5rem;
+}
+.tips a {
+	text-decoration: none;
+	color: black;
+}
+.copyright {
+	width: 100%;
+	margin: 0 auto 1.26rem;
+	font-size: 0.15rem;
+	color: white;
+	text-align: center;
+}
+.copyright span {
+	display: block;
+	margin: 0.015rem auto;
+}
+#background {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 0.38rem;
+}
+.hidecontent {
+	width: 5.62rem;
+	background-color: #fff;
+	z-index: 1;
+	margin: 1.88rem auto;
+	overflow: auto;
+	box-shadow: 0 0 0.2rem #000;
+}
+.hidecontent li {
+	height: 1.262rem;
+	padding-left: 0.26rem;
+	line-height: 1.34rem;
+	border-bottom: 0.01rem solid #878787;
+}
+#uni {
+	display: inline-block;
+	width: 0.56rem;
+	height: 0.56rem;
+	opacity: 0;
+	float: right;
+	position: relative;
+	right: 0.56rem;
+	top: 0.33rem;
+	cursor: pointer;
+	z-index: 2;
+}
+.hidecontent label {
+	display: inline-block;
+	width: 0.54rem;
+	height: 0.54rem;
+	float: right;
+	position: relative;
+	top: 0.33rem;
+	border-radius: 50%;
+	border: 0.04rem solid #999;
+	background: white url(img/grayradio.png) no-repeat center;
+	background-size: 0.25rem;
+}
+#uni:checked + label {
+	background: white url(img/backradio.png) no-repeat center;
+	background-size: 0.25rem;
+}
